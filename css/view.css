@@ -2,9 +2,6 @@ body, html{
   background-color: black;
   color: orange;
   margin-left: 15px;
-  max-width: 100%;
-  width: 100%;
-  overflow-x: hidden;
 }
 .logo h1{
   width: 500px;
