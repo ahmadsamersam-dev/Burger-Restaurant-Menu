@@ -17,67 +17,70 @@
     <div class="titles">
       <h2>Our Menu</h2>
     </div>
-    <div class="first-burger">
-      <figure>
-        <img src="images/cheese.png" alt="Cheese Burger">
-        <figcaption>cheese burger</figcaption>
-      </figure>
-      
+    <div class="cheese">
+      <figure class="first-photo">
+  <img src="images/cheese.png" alt="Cheese Burger">
+  <figcaption>cheese burger</figcaption>
+</figure>
+<div class="first-burger">
+  <form action="">
+    <div class="size">
+      <label for="size">Size: </label>
+      <input type="radio" value="Large" name="size" id="size1" required>
+      <label for="size1">Large</label>
+      <input type="radio" value="medium" name="size" id="size2">
+      <label for="size2">Medium</label>
+      <input type="radio" value="small" name="size" id="size3">
+      <label for="size3">Small</label>
+    </div>
+    <br>
+    <div class="extras">
+      <label for="extras">Fries&drink?</label>
+      <input type="radio" value="Yes" name="Fries&drink" id="extras" required>
+      <label for="extras">Yes</label>
+      <input type="radio" value="No" name="Fries&drink" id="extras2">
+      <label for="extras2">No</label>
+    </div>
+    <br>
+    <div class="number">
+      <input type="number" name="number" min="0" step="1" placeholder="How many burgers?" required>
+    </div>
+    <input type="submit" value="Add to cart" class="add">
+  </form>
+</div>
+    </div>
+    <div class="mushroom">
+          <figure>
+      <img src="images/mushroom.png" alt="Mushroom Burger">
+      <figcaption>mushroom burger</figcaption>
+    </figure>
+    <div class="second-burger">
       <form action="">
-      <div class="size">
-        <label for="size">Size: </label>
-        <input type="radio" value="Large" name="size" id="size" required>
-        <label for="size">Large</label>
-        <input type="radio" value="medium" name="size" id="size">
-        <label for="size">Medium</label>
-        <input type="radio" value="small" name="size" id="size">
-        <label for="size">Small</label>
-      </div>
+        <div class="size">
+          <label for="size">Size: </label>
+          <input type="radio" value="Large" name="size" id="sizeA" required>
+          <label for="sizeA">Large</label>
+          <input type="radio" value="medium" name="size" id="sizeB">
+          <label for="sizeB">Medium</label>
+          <input type="radio" value="small" name="size" id="sizeC">
+          <label for="sizeC">Small</label>
+        </div>
         <br>
-      <div class="extras">
-        <label for="extras">Fries&drink?</label>
-        <input type="radio" value="Yes" name="Fries&drink" id="extras" required>
-        <label for="extras">Yes</label>
-        <input type="radio" value="No" name="Fries&drink" id="extras">
-        <label for="extras">No</label>
-      </div>
+        <div class="extras">
+          <label for="extras">Fries&drink?</label>
+          <input type="radio" value="Yes" name="Fries&drink" id="extrasA" required>
+          <label for="extrasA">Yes</label>
+          <input type="radio" value="No" name="Fries&drink" id="extrasB">
+          <label for="extrasB">No</label>
+        </div>
         <br>
         <div class="number">
-        <input type="number" name="number" min="0" step="1" placeholder="How many burgers?" required>
+          <input type="number" name="number" min="0" step="1" placeholder="How many burgers?" required>
         </div>
-          <input type="submit" value="Add to cart" class="add">
+        <input type="submit" value="Add to cart" class="add">
       </form>
     </div>
-    <div class="second-burger">
-      <figure>
-        <img src="images/mushroom.png" alt="Mushroom Burger" >
-        <figcaption>mushroom burger</figcaption>
-      </figure>
-     <form action="">
-   <div class="size">
-    <label for="size">Size: </label>
-    <input type="radio" value="Large" name="size" id="size" required>
-    <label for="size">Large</label>
-    <input type="radio" value="medium" name="size" id="size">
-    <label for="size">Medium</label>
-    <input type="radio" value="small" name="size" id="size">
-    <label for="size">Small</label>
-   </div>
-   <br>
-   <div class="extras">
-    <label for="extras">Fries&drink?</label>
-    <input type="radio" value="Yes" name="Fries&drink" id="extras" required>
-    <label for="extras">Yes</label>
-    <input type="radio" value="No" name="Fries&drink" id="extras">
-    <label for="extras">No</label>
-   </div>
-   <br>
-   <div class="number">
-    <input type="number" name="number" min="0" step="1" placeholder="How many burgers?" required>
-   </div>
-   <input type="submit" value="Add to cart" class="add">
-   </form>
-  </div>
+    </div>
   </section>
 </body>
 
